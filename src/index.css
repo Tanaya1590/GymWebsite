@@ -386,7 +386,9 @@ nav .menu-btn,
     background-color: #ffffff2d;
     color: #ffffff;
     border-radius: 5px;
+    
 }
+
 #contact form textarea{
     height: 150px;
 }
@@ -438,7 +440,9 @@ nav .menu-btn,
         font-size: 1rem;
     }
 	.about-image img{
-		height:400px;
+		/* height:400px; */
+        width: 100%;
+        height: auto;
     }
     #features{
 		height:auto;
@@ -472,7 +476,8 @@ nav .menu-btn,
 		transform: translate(-50%,-50%);
 	}
 	.about-image{
-        display:none;
+        /* display:none; */
+        width: 100%;
     }
     .header-btn{
         /* margin-left: 20%; */
@@ -488,9 +493,15 @@ nav .menu-btn,
         text-align: center;
         
         margin-top: 0px;
+        display: flex
+;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
 	}
 	.about-text{
-        width: 90%;
+        /* width: 90%; */
+        width: 100%;
 	}
 	.about-text h1{
 		font-size:4rem;
